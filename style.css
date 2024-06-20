@@ -1,0 +1,70 @@
+body {
+    margin: 0%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    background-color: aliceblue;
+    position: relative;
+    height: 500px;
+    width: 450px;
+    border-radius: 10px;
+    padding: 80px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 5px  rgb(227, 226, 226);
+}
+
+.brand-logo {
+    height: 100px;
+    width: 100px;
+    background: url('profile.jpg');
+    margin: auto;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgb(210, 209, 209);
+}
+
+.brand-title {
+    color: rgb(0, 140, 255);
+}
+
+.inputs {
+    text-align: left;
+    margin-top: 20px;
+}
+
+input, button, label {
+    display: block;
+    width: 100%;
+    border: none;
+    box-sizing: border-box;
+}
+
+label {
+    margin-bottom: 10px;
+    color: rgb(0, 140, 255);
+}
+
+input {
+    background: white;
+    padding: 10px;
+    height:  50px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 2px rgb(210, 209, 209);
+}
+
+button{
+    background-color: rgb(0, 140, 255);
+    color: white;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgb(210, 209, 209);
+}
